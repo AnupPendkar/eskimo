@@ -1,0 +1,163 @@
+.navbar {
+  /* overflow: hidden; */
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 20px;
+  z-index: 100;
+  position: relative;
+  right: 0;
+  background-color: #fff;
+  /* overflow: hidden; */
+}
+
+.logo-img {
+  width: 210px;
+  height: 65px;
+}
+
+.ham {
+  width: 60px;
+  height: 35px;
+  background-color: #00b3cc;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.ham-container {
+  position: relative;
+  width: 34px;
+  height: 17px;
+}
+
+.ham-container > span {
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  transition: all 0.2s ease;
+  z-index: 3;
+}
+
+.line1 {
+  width: 5px;
+  left: 0;
+}
+
+.line2 {
+  width: calc(100% - 15px);
+  right: 0;
+}
+
+.line2.active {
+  width: calc(100% - 5px);
+}
+
+.line3 {
+  width: calc(100% - 6px);
+  top: 8px;
+}
+
+.line3.active {
+  right: 0;
+}
+
+.line4 {
+  width: calc(100% - 5px);
+  top: 15px;
+  height: 3px;
+}
+
+.line4.active {
+  top: 15px;
+  width: calc(100% - 15px);
+}
+
+.line5 {
+  top: 15px;
+  width: 5px;
+  right: 0;
+}
+
+.menu {
+  border-top: 1px solid rgb(228, 227, 227);
+  padding: 20px 60px;
+  position: absolute;
+  /* height: calc(100vh - 70px); */
+  top: -164px;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  transition: all 1s ease;
+}
+
+.menu.active {
+  top: 70px;
+  display: block;
+  /* height: calc(60vh - 70px); */
+}
+
+.menu-list {
+  list-style: none;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu-item {
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.about-li {
+  position: relative;
+}
+
+.reveal {
+  transition: all 1s ease;
+  display: block;
+  color: rgb(95, 94, 94);
+  margin-left: 15px;
+}
+.menu-list.false {
+  display: none;
+}
+
+.menu-item:hover {
+  color: crimson;
+  text-decoration: underline;
+}
+
+.list-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-wrapper > i {
+  color: #777;
+  cursor: pointer;
+}
+
+@media (min-width: 1000px) {
+  .menu {
+    top: -390px;
+  }
+  .menu.active {
+  }
+}
+@media (max-width: 420px) {
+  .menu {
+    top: -450px;
+  }
+  .menu.active {
+  }
+}

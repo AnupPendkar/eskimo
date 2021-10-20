@@ -1,0 +1,28 @@
+.testiItem {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  z-index: -3;
+  margin-right: 3rem;
+}
+
+.testi-desc {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: 200;
+  margin-bottom: 30px;
+  width: 88%;
+  color: #7a7a7a;
+}
+
+.location {
+  color: #00b3cc;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.comp-name {
+  font-size: 25px;
+  text-transform: capitalize;
+  font-weight: 500;
+}

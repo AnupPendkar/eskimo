@@ -1,0 +1,95 @@
+.product-container {
+  padding: 4rem 6rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(243, 243, 243);
+}
+
+.product-main-title {
+  align-self: flex-start;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 10px 0;
+  margin-bottom: 10rem;
+}
+
+.product-title {
+  align-self: flex-start;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.product-small-title {
+  align-self: flex-start;
+  font-size: 13px;
+  color: #00b3cc;
+  font-weight: 500;
+}
+
+.product-desc-container {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem;
+  background-color: #fff;
+  margin: 3rem 0;
+}
+
+.desc-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.desc-small-title {
+  font-size: 16px;
+  font-weight: 200;
+  color: #777;
+  margin: 10px 0;
+}
+
+.pro-flow {
+  margin-top: 4rem;
+}
+
+.product img {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.add-info-container {
+  margin: 1.5rem 0;
+}
+
+.add-info-container > span {
+  font-size: 18px;
+  color: #00b3cc;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.add-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.add-info > span {
+  font-size: 16px;
+  font-weight: 200;
+  color: rgb(68, 67, 67);
+  margin: 2px 0;
+}
+
+.product-project {
+  margin-top: 5rem;
+}
+
+@media (max-width: 500px) {
+  .product-container {
+    padding: 0rem 1rem;
+  }
+  .product-desc-container {
+    padding: 2rem;
+  }
+}

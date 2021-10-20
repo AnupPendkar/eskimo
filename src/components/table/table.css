@@ -1,0 +1,43 @@
+.table {
+  background-color: #fff;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+  border: 1px solid rgb(187, 186, 186);
+}
+
+tr {
+  display: flex;
+}
+
+td {
+  border: 1px solid rgb(187, 186, 186);
+  padding: 15px 25px;
+}
+
+.col-1 {
+  color: #00b3cc;
+  font-weight: 600;
+  text-align: center;
+  flex: 3;
+}
+.col-2 {
+  flex: 9;
+  color: #777;
+  font-weight: 500;
+}
+
+@media (max-width: 500px) {
+  td {
+    padding: 15px 5px;
+  }
+  .col-1 {
+    flex: 5;
+  }
+  .col-2 {
+    flex: 7;
+  }
+}

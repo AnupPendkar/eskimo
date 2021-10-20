@@ -1,0 +1,89 @@
+.valuesPage {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(235, 235, 235);
+}
+
+.values-title {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.values-container {
+  height: 100%;
+  padding: 6rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8rem;
+}
+
+.values-container-title {
+  font-size: 33px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.values-desc {
+  font-size: 17px;
+  color: #686868;
+}
+
+.vct {
+  padding: 0 3rem;
+  font-size: 26px;
+  margin-bottom: 5rem;
+}
+
+.vt {
+  font-size: 40px;
+  font-weight: 900;
+  align-self: center;
+}
+
+.certificate-container {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.certificate-container > img {
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .valuesPage {
+    padding: 1rem;
+  }
+  .values-title {
+    font-size: 35px;
+  }
+  .values-container {
+    height: 100%;
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
+  .values-container-title {
+    font-size: 30px;
+  }
+  .values-desc {
+    font-size: 15px;
+  }
+  .vct {
+    padding: 0 0rem;
+    font-size: 24px;
+    margin-bottom: 5rem;
+  }
+  .vt {
+    font-size: 35px;
+  }
+  .certificate-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .certificate-container > img {
+    margin-bottom: 5px;
+  }
+}

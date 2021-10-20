@@ -1,0 +1,50 @@
+.fact {
+  background-color: rgb(243, 243, 243);
+}
+
+.fact-container {
+  padding: 4rem 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fact-title {
+  align-self: flex-start;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+
+.fact-table-title {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 2rem 0;
+  margin-top: 6rem;
+}
+
+.quality-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.quality-container .fact-table-title {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.fact-table-small-title {
+  font-size: 18px;
+  color: #999999;
+  font-weight: 200;
+}
+
+@media (max-width: 500px) {
+  .fact-container {
+    padding: 4rem 1rem;
+  }
+}
